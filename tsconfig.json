@@ -14,7 +14,7 @@
     "noEmit": true,
     "jsx": "react-jsx",
 
-    // Shadcn config
+    /* shadcn */
     "baseUrl": ".",
     "paths": {
       "@/*": ["./src/*"]
