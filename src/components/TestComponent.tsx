@@ -1,16 +1,12 @@
 
 type TestProps = {
-  style: {
-    backgroundColor: string;
-    fontSize: number;
-    textColor: string;
-  };
+  children: React.ReactNode;
 };
 
-const TestComponent = ({ style }: TestProps) => {
+const TestComponent = ({ children }: TestProps) => {
   return (
-    <div style={style}>
-      <div>Test</div>
+    <div>
+      <div>{children}</div>
     </div>
   );
 };
