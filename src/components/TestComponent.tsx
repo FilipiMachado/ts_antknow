@@ -1,9 +1,18 @@
-import React from 'react'
 
-const TestComponent = () => {
+type TestProps = {
+  style: {
+    backgroundColor: string;
+    fontSize: number;
+    textColor: string;
+  };
+};
+
+const TestComponent = ({ style }: TestProps) => {
   return (
-    <div>TestComponent</div>
-  )
-}
+    <div style={style}>
+      <div>Test</div>
+    </div>
+  );
+};
 
-export default TestComponent
+export default TestComponent;

@@ -1,12 +1,15 @@
-function App() {
+import TestComponent from "@/components/TestComponent";
 
+function App() {
   return (
     <>
-     <div>
-      <div className="bg-red-400">1</div>
-     </div>
+      <div>
+        <TestComponent
+          style={{ backgroundColor: "red", fontSize: 20, textColor: "blue" }}
+        />
+      </div>
     </>
-  )
+  );
 }
 
-export default App
+export default App;
