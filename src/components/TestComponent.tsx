@@ -1,14 +1,11 @@
+import React from "react";
 
 type TestProps = {
-  children: React.ReactNode;
-};
 
-const TestComponent = ({ children }: TestProps) => {
-  return (
-    <div>
-      <div>{children}</div>
-    </div>
-  );
+}
+
+const TestComponent = ({  }: TestProps) => {
+  return <button>Click Me!</button>;
 };
 
 export default TestComponent;

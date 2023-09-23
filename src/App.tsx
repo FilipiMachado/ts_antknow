@@ -1,14 +1,13 @@
+'use client'
+
 import TestComponent from "@/components/TestComponent";
 
 function App() {
-  
 
   return (
     <>
       <div>
-        <TestComponent>
-          Click Me!
-        </TestComponent>
+        <TestComponent/>
       </div>
     </>
   );
